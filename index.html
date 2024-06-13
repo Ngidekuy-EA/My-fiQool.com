@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="Logo Teknokrat 2.ico">
+    <title>My FiQool.com</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background: linear-gradient(to bottom right, #2c3e50, #3498db); /* gradient dua warna yang keren */
+        }
+
+        .container {
+            text-align: center;
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .profile-pic {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            object-fit: cover;
+        }
+
+        .name {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            font-size: 24px;
+            margin: 10px 0;
+        }
+
+        .left-name, .center-name, .right-name {
+            flex: 1;
+            padding: 0 10px;
+        }
+
+        .left-name a, .center-name a, .right-name a {
+            text-decoration: none;
+            color: #383535; /* Warna teks awal */
+            font-weight: bold;
+            padding: 10px;
+            transition: color 0.3s, text-shadow 0.3s;
+            display: inline-block; /* Mengubah tautan menjadi inline block */
+        }
+
+        .left-name a:hover, .center-name a:hover, .right-name a:hover {
+            color: #007BFF; /* Warna teks saat dihover */
+            text-shadow: 1px 1px 5px rgba(255, 255, 255, 0.5); /* Efek bayangan teks */
+        }
+
+        .left-name a:active, .center-name a:active, .right-name a:active {
+            color: #0056b3; /* Warna teks saat diklik */
+        }
+
+        .links a {
+            display: block;
+            text-decoration: none;
+            color: white;
+            background-color: #1c3855;
+            padding: 10px;
+            margin: 5px 0;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+
+        .links a:hover {
+            background-color: #1d0aad;
+        }
+
+        .footer {
+            position: fixed;
+            bottom: 10px;
+            width: 100%;
+            text-align: center;
+            color: #ffffff;
+        }
+
+        /* Gaya tambahan untuk teks Erwin & Arga */
+        .footer a {
+            text-decoration: none;
+            color: #ffffff;
+            font-weight: bold;
+            transition: color 0.3s;
+        }
+
+        .footer a:hover {
+            color: #4a4857; /* Warna teks saat dihover */
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img src="img/Logo Teknokrat 2.png" alt="Profile Picture" class="profile-pic">
+        <div class="name">
+            <div class="left-name"><a href="https://drive.google.com/file/d/14mbowPnoQwyPkUyqbkDt6GhWhIzdbrdr/view?usp=drivesdk" target="_blank">Thaharah</a></div>
+            <div class="center-name"><a href="https://baznas.go.id/zakat" target="_blank">Zakat</a></div>
+            <div class="center-name"><a href="https://r.search.yahoo.com/_ylt=AwrKEbj._GpmZVgHC7bLQwx.;_ylu=Y29sbwNzZzMEcG9zAzIEdnRpZAMEc2VjA3Ny/RV=2/RE=1718316415/RO=10/RU=https%3a%2f%2fwww.gramedia.com%2fliterasi%2fpengertian-puasa%2f/RK=2/RS=HF94LgiAoJQin9gxjP4V8TJBso0-" target="_blank">Puasa</a></div>
+            <div class="right-name"><a href="https://drive.google.com/file/d/1y3EGMh2RDiBvxzTcMO_R18iiR7PRZry6/view?usp=drivesdk" target="_blank">Sholat</a></div>
+        </div>
+        <div class="links">
+            <a href="https://instagram.com/arrahmanteknokrat" target="_blank">Instagram</a>
+            <a href="https://Youtube.com/LDK Ar-Rahman Teknokrat" target="_blank">Youtube</a>
+        </div>
+    </div>
+    <div class="footer">
+        &copy; <span id="year"></span> My FiQool. All rights reserved. Developed by <a href="https://www.instagram.com/theboys_z1?igsh=MWd1amJqODh6aTNhbA==">Erwin</a> & <a href="https://www.instagram.com/argabayu_rmdhn?igsh=MWk3eDBzdm4xa3JuNQ==">Arga</a>
+    </div>
+
+    
+</body>
+</html>
